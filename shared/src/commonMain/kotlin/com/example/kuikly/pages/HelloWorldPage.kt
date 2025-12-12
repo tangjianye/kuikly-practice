@@ -7,6 +7,23 @@ import com.tencent.kuikly.core.views.Text
 
 @Page("HelloWorld")
 internal class HelloWorldPage : Pager() {
+    override fun created() {
+        super.created()
+//        val pgData = pageData;
+    }
+
+    override fun pageDidAppear() {
+        super.pageDidAppear()
+    }
+
+    override fun pageDidDisappear() {
+        super.pageDidDisappear()
+    }
+
+    override fun pageWillDestroy() {
+        super.pageWillDestroy()
+    }
+
     override fun body(): ViewBuilder {
         return {
             attr {
